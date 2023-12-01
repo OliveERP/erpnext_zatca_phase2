@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include erpnext_zatca *.css
+recursive-include erpnext_zatca *.csv
+recursive-include erpnext_zatca *.html
+recursive-include erpnext_zatca *.ico
+recursive-include erpnext_zatca *.js
+recursive-include erpnext_zatca *.json
+recursive-include erpnext_zatca *.md
+recursive-include erpnext_zatca *.png
+recursive-include erpnext_zatca *.py
+recursive-include erpnext_zatca *.svg
+recursive-include erpnext_zatca *.txt
+recursive-exclude erpnext_zatca *.pyc
